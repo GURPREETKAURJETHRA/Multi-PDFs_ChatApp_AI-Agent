@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does CALM stand for?",
+    "aliases": [
+      "What is CALM?",
+      "What is the full form of CALM?"
+    ],
+    "answer": "CALM stands for Composition to Augment Language Models. The paper presents it as a way to combine an existing foundation model with a more specialized model to add capabilities.",
+    "source": "Augmented LLMs.pdf",
+    "page": 1
+  },
+  {
+    "question": "How does CALM combine models?",
+    "aliases": [
+      "How does CALM work?",
+      "How are the models composed in CALM?"
+    ],
+    "answer": "CALM introduces cross-attention between the models to compose their representations. This lets an existing foundation model work together with a more specialized model to gain new capabilities, using a few additional parameters and data.",
+    "source": "Augmented LLMs.pdf",
+    "page": 1
+  },
+  {
+    "question": "Does CALM change the original model weights?",
+    "aliases": [
+      "Are the original model weights kept intact?",
+      "Does CALM preserve the existing model weights?"
+    ],
+    "answer": "No. CALM keeps the existing model weights intact, which helps preserve the original model's capabilities while adding new ones through composition with another model.",
+    "source": "Augmented LLMs.pdf",
+    "page": 1
+  },
+  {
+    "question": "What improvement did CALM achieve on low-resource language tasks?",
+    "aliases": [
+      "How much did translation improve for low-resource languages?",
+      "What were the results for low-resource languages?"
+    ],
+    "answer": "The paper reports that augmenting PaLM2-S with a smaller model trained on low-resource languages achieved up to a 13% absolute improvement on tasks such as translation into English and arithmetic reasoning for those languages.",
+    "source": "Augmented LLMs.pdf",
+    "page": 1
+  },
+  {
+    "question": "What improvement did CALM achieve on code tasks?",
+    "aliases": [
+      "How much did code generation improve?",
+      "What were the results for code generation and explanation?"
+    ],
+    "answer": "When PaLM2-S was augmented with a code-specific model, code generation and explanation improved by 40% relative to the base model. The paper says these results were on par with fully fine-tuned counterparts.",
+    "source": "Augmented LLMs.pdf",
+    "page": 1
+  }
+]
