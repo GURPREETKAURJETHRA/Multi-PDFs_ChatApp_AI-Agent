@@ -1,4 +1,4 @@
-# Multi-PDFs ChatApp
+# Aarushi Nahata's Multi-PDFs ChatApp
 
 A local Streamlit app for searching the contents of multiple PDF documents. PDF text is processed on your computer; no Gemini API key or internet connection is needed for document search.
 

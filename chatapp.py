@@ -112,8 +112,8 @@ def find_sample_answers(question, chunks):
 
 
 def main():
-    st.set_page_config("Multi PDF Chatbot", page_icon=":scroll:")
-    st.header("Multi-PDF's 📚 - Chat Agent 🤖")
+    st.set_page_config("Aarushi Nahata | Multi-PDF Chatbot", page_icon=":scroll:")
+    st.header("Aarushi Nahata's Multi-PDF Chat Agent 🤖")
     st.caption(
         "Local mode: answers are retrieved directly from the uploaded PDFs; "
         "no Gemini API key or internet connection is needed."
@@ -149,6 +149,8 @@ def main():
                             f"- {match['text']} "
                             f"(*{match['source']}, page {match['page']}*)"
                         )
+
+    st.caption("Created by Aarushi Nahata")
 
     with st.sidebar:
         st.title("📁 PDF File's Section")
